@@ -1,0 +1,44 @@
+.S_buttonContainer
+{
+    flex: 1;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%;
+    place-items: center;
+    margin-top: 20px;
+
+}
+
+.S_buttonContainer .S_button
+{ 
+
+    flex: 240px 1 1;
+    max-width: 240px;
+    background: white;
+    border: 1px solid navy;
+    display:grid;
+    place-items: center;
+    text-align: center !important;
+    text-decoration: none;
+    color:white;
+    background: var(--dark-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    padding-inline:10px;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+.userDetailsCard
+{
+    box-shadow: 0 0 10px var(--extra-light-color);
+    border: none;
+}
+
+.userDetailsCard .card-body
+{
+    padding: 20px;
+}
